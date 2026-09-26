@@ -12,7 +12,7 @@ cask "uad-doctor" do
     regex(/"version":\s*"(\d+(?:\.\d+)+)"/i)
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   pkg "UADDoctor-#{version}.pkg"
 
