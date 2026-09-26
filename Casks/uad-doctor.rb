@@ -4,7 +4,7 @@ cask "uad-doctor" do
 
   url "https://gggaudio.store/uad-doctor/UADDoctor-#{version}.pkg"
   name "UAD Doctor"
-  desc "Menu-bar DSP monitor and one-click recovery for Universal Audio Apollo and UAD-2 rigs"
+  desc "Menu-bar DSP monitor and one-click recovery for UA Apollo and UAD-2 rigs"
   homepage "https://gggaudio.store/uad-doctor/"
 
   livecheck do
