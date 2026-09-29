@@ -1,6 +1,6 @@
 cask "uad-doctor" do
-  version "1.4.4"
-  sha256 "134669ead0496a2e076a44dcf3b4949cb75c452f40b7ea48f5f730f0907a6cf8"
+  version "1.4.5"
+  sha256 "aecd6cd47b8fc29a86f97908431d47145f5d55a6cd0386a72d89a40cf251d32c"
 
   url "https://gggaudio.store/uad-doctor/UADDoctor-#{version}.pkg"
   name "UAD Doctor"
