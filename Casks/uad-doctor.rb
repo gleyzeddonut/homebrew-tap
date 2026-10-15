@@ -1,6 +1,6 @@
 cask "uad-doctor" do
-  version "1.4.6"
-  sha256 "55a7f0e504be216135478193fb1ff5df322ef147c699097056d021ca3b157db2"
+  version "1.4.7"
+  sha256 "48280442c2b7afd41eeb42269931600374320675849201fc9b704ac484a742dc"
 
   url "https://gggaudio.store/uad-doctor/UADDoctor-#{version}.pkg"
   name "UAD Doctor"
@@ -22,6 +22,7 @@ cask "uad-doctor" do
   zap trash: [
     "~/Library/Application Support/uadfix",
     "~/Library/Preferences/com.dangleyzer.uaddoctor.plist",
+    "~/Music/Ableton/User Library/Remote Scripts/UADDoctor",
   ]
 
   caveats <<~EOS
